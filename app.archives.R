@@ -1,6 +1,6 @@
 #
 # This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
+# the 'Run App' button in RStudio
 #
 # Find out more about building applications with Shiny here:
 #
@@ -14,7 +14,7 @@ library(huxtable)
 library(ggplot2)
 library(ggpubr)
 library(jtools)
-# Define UI for application that draws a histogram
+
 ui <- navbarPage("Cognitive change assessment",
                  tabPanel("How to use this app?",
                           shinyUI(
@@ -105,14 +105,7 @@ ui <- navbarPage("Cognitive change assessment",
 
 
 
-# dataTableOutput 	DataTable
-# htmlOutput 	raw HTML
-# imageOutput 	image
-# plotOutput 	plot
-# tableOutput 	table
-# textOutput 	text
-# uiOutput 	raw HTML
-# verbatimTextOutput 	text
+
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
@@ -584,7 +577,7 @@ server <- function(input, output) {
       
       
       
-        #  "SRB 2","SRB 3a", "SRB 3b"
+
       
       
       
