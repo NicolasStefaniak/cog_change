@@ -487,7 +487,7 @@ ui <- navbarPage("Cognitive change assessment",
                           shinyUI(
                             fluidPage(
                               h4("Welcome to this app" ),
-                              p("This app provides the supplemental material to Henry et al. (2023)'s paper entitled:", 
+                              p("This app provides the supplemental material to Henry et al.'s (2023)paper entitled:", 
                                 div(HTML("<i>Assessing cognitive changes in multiple sclerosis: Criteria for a reliable decision?</i>")), 
                                 style = "color:white"),
                               
@@ -583,7 +583,7 @@ ui <- navbarPage("Cognitive change assessment",
                               p("Henry, A., Stefaniak, N., Schmid, F., Kwiatkowski, A., Hautecoeur, P., & Lenne, B. (2023) Assessing cognitive changes in multiple sclerosis: criteria for a reliable decision.", 
                                 HTML("<i> Journal of Clinical and Experimental Neuropsychology.</i>"), 
                                 HTML("<a href=' https://doi.org/10.1080/13803395.2023.2232122'> https://doi.org/10.1080/13803395.2023.2232122</a>"), 
-                                style = "color:white")                              
+                                style = "color:white"),                              
                               p("Iverson, G. L. (2001). Interpreting change on the WAIS-III/WMS-III in clinical samples.", 
                                 HTML("<i>Archives of Clinical Neuropsychology, 16(2),</i>"), "183–191.",
                                 HTML("<a href='https://doi.org/10.1016/S0887-6177(00)00060-3'>https://doi.org/10.1016/S0887-6177(00)00060-3</a>"), 
